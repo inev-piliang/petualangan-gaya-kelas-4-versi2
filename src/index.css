@@ -458,6 +458,7 @@ button {
 
 .question-prompt {
   position: relative;
+  flex: none;
   overflow: hidden;
   border-radius: 16px 18px 14px 17px;
   background:
