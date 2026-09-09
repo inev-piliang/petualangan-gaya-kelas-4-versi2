@@ -32,16 +32,16 @@ const CONFETTI = ["#ffd23e", "#ff6b35", "#3ddc84", "#4fc3f7", "#ff5d9e", "#fff6e
 const TAU = Math.PI * 2;
 
 const SCENE_ART: Record<SceneId | "menu", string> = {
-  menu: "/images/menu-adventure.jpg",
-  rock: "/images/level-1-rock.jpg",
-  bridge: "/images/level-2-bridge.jpg",
-  gate: "/images/level-3-magnet.jpg",
-  spring: "/images/level-4-spring.jpg",
-  tree: "/images/level-5-gravity.jpg",
-  ball: "/images/level-6-ball.jpg",
-  clay: "/images/level-7-clay.jpg",
-  door: "/images/level-8-door.jpg",
-  cave: "/images/final-treasure.jpg",
+    menu: `${import.meta.env.BASE_URL}images/menu-adventure.jpg`,
+  rock: `${import.meta.env.BASE_URL}images/level-1-rock.jpg`,
+  bridge: `${import.meta.env.BASE_URL}images/level-2-bridge.jpg`,
+  gate: `${import.meta.env.BASE_URL}images/level-3-magnet.jpg`,
+  spring: `${import.meta.env.BASE_URL}images/level-4-spring.jpg`,
+  tree: `${import.meta.env.BASE_URL}images/level-5-gravity.jpg`,
+  ball: `${import.meta.env.BASE_URL}images/level-6-ball.jpg`,
+  clay: `${import.meta.env.BASE_URL}images/level-7-clay.jpg`,
+  door: `${import.meta.env.BASE_URL}images/level-8-door.jpg`,
+  cave: `${import.meta.env.BASE_URL}images/final-treasure.jpg`,
 };
 
 const lerp = (a: number, b: number, k: number) => a + (b - a) * k;
